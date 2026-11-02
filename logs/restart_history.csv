@@ -1,0 +1,5 @@
+timestamp,service,state,action,detail
+2026-09-06 00:33:36,webapp.service,failed,restart,attempt 1 of 3
+2026-09-06 00:33:45,webapp.service,failed,restart,attempt 2 of 3
+2026-09-06 00:33:55,webapp.service,failed,restart,attempt 3 of 3
+2026-09-06 00:34:04,webapp.service,failed,escalate,3 restarts in 60s
