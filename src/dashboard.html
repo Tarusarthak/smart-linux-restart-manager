@@ -1,0 +1,17 @@
+<html><head><title>Restart Manager Dashboard</title>
+<style>
+body { font-family: sans-serif; background:#0f1c3f; color:#fff; margin:0; padding:30px; }
+h1 { font-weight:500; }
+.cards { display:flex; gap:20px; margin:20px 0 40px; }
+.card { background:#1a2a54; border-radius:12px; padding:20px 24px; display:flex; align-items:center; gap:16px; min-width:220px; }
+.dot { width:16px; height:16px; border-radius:50%; }
+.svc { font-size:15px; } .state { font-size:20px; font-weight:500; }
+table { width:100%; border-collapse:collapse; background:#1a2a54; border-radius:12px; overflow:hidden; }
+th,td { text-align:left; padding:12px 16px; font-size:14px; border-bottom:1px solid #2a3a64; }
+th { background:#22335f; }
+</style></head><body>
+<h1>Smart Linux Service Restart Manager</h1>
+<div class="cards"><div class="card"><div class="dot" style="background:#e24b4a"></div><div><div class="svc">webapp.service</div><div class="state" style="color:#e24b4a">failed</div></div></div><div class="card"><div class="dot" style="background:#1d9e75"></div><div><div class="svc">database.service</div><div class="state" style="color:#1d9e75">active</div></div></div></div>
+<h2>Recent decisions</h2>
+<table><tr><th>Time</th><th>Service</th><th>Action</th><th>Detail</th></tr><tr><td>2026-09-06 00:37:46</td><td>webapp.service</td><td>escalate</td><td>2 restarts, budget 2</td></tr><tr><td>2026-09-06 00:37:37</td><td>webapp.service</td><td>restart</td><td>attempt 2 of 2</td></tr><tr><td>2026-09-06 00:37:28</td><td>webapp.service</td><td>restart</td><td>attempt 1 of 2</td></tr><tr><td>2026-09-06 00:34:04</td><td>webapp.service</td><td>escalate</td><td>3 restarts in 60s</td></tr><tr><td>2026-09-06 00:33:55</td><td>webapp.service</td><td>restart</td><td>attempt 3 of 3</td></tr><tr><td>2026-09-06 00:33:45</td><td>webapp.service</td><td>restart</td><td>attempt 2 of 3</td></tr><tr><td>2026-09-06 00:33:36</td><td>webapp.service</td><td>restart</td><td>attempt 1 of 3</td></tr></table>
+</body></html>
