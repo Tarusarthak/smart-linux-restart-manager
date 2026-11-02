@@ -1,0 +1,8 @@
+[Unit]
+Description=Webapp service (depends on database)
+
+[Service]
+ExecStart=/home/ubuntu/webapp.sh
+
+[Install]
+WantedBy=multi-user.target

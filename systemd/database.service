@@ -1,0 +1,8 @@
+[Unit]
+Description=Database service for OS project
+
+[Service]
+ExecStart=/home/ubuntu/database.sh
+
+[Install]
+WantedBy=multi-user.target
